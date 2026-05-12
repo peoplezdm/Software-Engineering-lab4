@@ -2,7 +2,6 @@ import ss_function_avg as ss_f
 
 这里是B2分支
 
-# 设置模数p
 p = 1000000007
 
 # 随机选取两个参与方，例如student2和student3，获得d2, d3，从而恢复出d=a+b+c
@@ -22,3 +21,5 @@ inv_3 = ss_f.mod_inverse(3, p)
 avg = (d * inv_3) % p
 
 print(f'得数据平均值为：{avg}')
+
+这里是c4分支
